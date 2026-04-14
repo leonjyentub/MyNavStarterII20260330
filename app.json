@@ -25,6 +25,13 @@
     "plugins": [
       "expo-asset",
       [
+        "expo-image-picker",
+        {
+          "photosPermission": "允許存取相簿以選擇圖片。",
+          "cameraPermission": "允許使用相機以拍攝圖片。"
+        }
+      ],
+      [
         "expo-splash-screen",
         {
           "backgroundColor": "#ffffff",
